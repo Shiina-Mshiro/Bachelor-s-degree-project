@@ -27,7 +27,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 # 打开图像文件
-image = Image.open('python-learn/010001.png',"rb")
+image = Image.open('python-learn/010001.png')
 # 使用st.image函数展示图像，调整宽度
 st.image(image, caption='仪器', width=400)
 # 分割线
