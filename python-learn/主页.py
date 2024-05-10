@@ -11,7 +11,7 @@ st.title("  ")
 st.title("  ")
 st.title("  ")
 st.title("  ")
-st.title("饱和蒸汽p-t关系模拟仿真实验")
+st.title("饱和蒸汽P-t关系虚拟仿真实验")
 """
 
 # streamlit run 主页.py   CTRL c
@@ -214,7 +214,7 @@ st.data_editor(
 pages = {
     "主页": [code_page1],
     "实验仪器及过程": [code_page2],
-    "进行模拟仿真实验": [code_page3],
+    "进行虚拟仿真实验": [code_page3],
 }
 selected_page = st.sidebar.selectbox("Select a page", list(pages.keys()))
 exec(pages[selected_page][0])
